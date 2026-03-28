@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import time
 
-class LD500:
+class LD_D500:
     '''
     Esta clase lee, interpreta y pinta los valores recibidos por el lidar LD500.
     '''
@@ -67,7 +67,7 @@ class LD500:
                 angulos : cadena con los valores de los ángulos.
 
         Example:
-            >>> lidar = LD500()
+            >>> lidar = LD_D500()
 
             >>> while(True):
             >>>     distancia, intensidad, angulos = lidar.read_value()
@@ -160,7 +160,7 @@ class LD500:
 
 
         Example: 
-            >>> lidar = LD500()
+            >>> lidar = LD_D500()
             
             >>> while(True):
             >>>     distancia, intensidad, angulos = lidar.read_value()
