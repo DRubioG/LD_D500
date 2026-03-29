@@ -62,55 +62,56 @@ class LD_D500:
 
         Note: 
             El lidar devuelve la siguiente cadena:
+        
         | Posición | Valor |
         |----------|-------|
-        |    0	   | 0x54 |
-        |    1	   | |
-        |    2	   | Velocidad |
-        |    3	   | Velocidad |
-        |    4	   | Ángulo de inicio x100 |
-        |    5	   | Ángulo de inicio x100 |
-        |    6	   | Distancia 1 mm |
-        |    7	   | Distancia 1 mm |
-        |    8	   | Intensidad 1 |
-        |    9	   | Distancia 2 mm |
-        |    10    | Distancia 2 mm |
+        |    0	  | 0x54 |
+        |    1	  | Tipo de mensaje (0x2C) |
+        |    2	  | Velocidad (LSB) |
+        |    3	  | Velocidad |
+        |    4	  | Ángulo de inicio x100 (LSB) |
+        |    5	  | Ángulo de inicio x100 (MSB) |
+        |    6	  | Distancia 1 [mm] (LSB) |
+        |    7	  | Distancia 1 [mm] (MSB) |
+        |    8	  | Intensidad 1 |
+        |    9	  | Distancia 2 [mm] (LSB) |
+        |    10    | Distancia 2 [mm] (MSB) |
         |    11    | Intensidad 2 |
-        |    12    | Distancia 3 mm |
-        |    13    | Distancia 3 mm |
+        |    12    | Distancia 3 [mm] (LSB) |
+        |    13    | Distancia 3 [mm] (MSB) |
         |    14    | Intensidad 3 |
-        |    15    | Distancia 4 mm |
-        |    16    | Distancia 4 mm |
+        |    15    | Distancia 4 [mm] (LSB) |
+        |    16    | Distancia 4 [mm] (MSB) |
         |    17    | Intensidad 4 |
-        |    18    | Distancia 5 mm |
-        |    19    | Distancia 5 mm |
+        |    18    | Distancia 5 [mm] (LSB) |
+        |    19    | Distancia 5 [mm] (MSB) |
         |    20    | Intensidad 5 |
-        |    21    | Distancia 6 mm |
-        |    22    | Distancia 6 mm |
+        |    21    | Distancia 6 [mm] (LSB) |
+        |    22    | Distancia 6 [mm] (MSB) |
         |    23    | Intensidad 6 |
-        |    24    | Distancia 7 mm |
-        |    25    | Distancia 7 mm |
+        |    24    | Distancia 7 [mm] (LSB) |
+        |    25    | Distancia 7 [mm] (MSB) |
         |    26    | Intensidad 7 |
-        |    27    | Distancia 8 mm |
-        |    28    | Distancia 8 mm |
+        |    27    | Distancia 8 [mm] (LSB) |
+        |    28    | Distancia 8 [mm] (MSB) |
         |    29    | Intensidad 8 |
-        |    30    | Distancia 9 mm |
-        |    31    | Distancia 9 mm |
+        |    30    | Distancia 9 [mm] (LSB) |
+        |    31    | Distancia 9 [mm] (MSB) |
         |    32    | Intensidad 9 |
-        |    33    | Distancia 10 mm |
-        |    34    | Distancia 10 mm |
+        |    33    | Distancia 10 [mm] (LSB) |
+        |    34    | Distancia 10 [mm] (MSB) |
         |    35    | Intensidad 10 |
-        |    36    | Distancia 11 mm |
-        |    37    | Distancia 11 mm |
+        |    36    | Distancia 11 [mm] (LSB) |
+        |    37    | Distancia 11 [mm] (MSB) |
         |    38    | Intensidad 11 |
-        |    39    | Distancia 12 mm |
-        |    40    | Distancia 12 mm |
+        |    39    | Distancia 12 [mm] (LSB) |
+        |    40    | Distancia 12 [mm] (MSB) |
         |    41    | Intensidad 12 |
-        |    42    | Ángulo de final x100 |
-        |    43    | Ángulo de final x100 |
-        |    44    | 	 |
-        |    45    | 	 |
-        |    46    | 	 |
+        |    42    | Ángulo de final x100 (LSB) |
+        |    43    | Ángulo de final x100 (MSB) |
+        |    44    | Marca de tiempo (LSB)	 |
+        |    45    | Marca de tiempo (MSB)	 |
+        |    46    | CRC	 |
 
 
         Returns:
