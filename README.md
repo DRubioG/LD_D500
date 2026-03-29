@@ -1,6 +1,6 @@
 # LD_D500
 
-*Estas librarís están basadas en este repositorio: https://github.com/covao/LidarLD19*
+*Las librerías están basadas en este repositorio: https://github.com/covao/LidarLD19*
 
 - Comunicación UART.
 - Frecuencia de baudios: 230400 bauds
